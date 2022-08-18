@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Gubia';
+	src: url('../fonts/Gubia-Bold.woff');
+	src: local('Gubia Bold'), local('Gubia-Bold'),
+		url('../fonts/Gubia-Bold.woff') format('woff'),
+		url('../fonts/Gubia-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gubia';
+	src: url('../fonts/Gubia-Black.woff');
+	src: local('Gubia Black'), local('Gubia-Black'),
+		url('../fonts/Gubia-Black.woff') format('woff'),
+		url('../fonts/Gubia-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gubia';
+	src: url('../fonts/Gubia.woff');
+	src: local('Gubia'),
+		url('../fonts/Gubia.woff') format('woff'),
+		url('../fonts/Gubia.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+body{
+    font-family: 'Gubia', Arial;
+}

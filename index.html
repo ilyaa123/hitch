@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitch - промышленное оборудование</title>
+    <link rel="stylesheet" href="style/index.css">
+    <script src="scripts/index.js" type="module"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="/index.html">
+                    <img class="header__logo-img" src="image/header/header-logo.png" alt="Логотип Hitch">
+                </a>
+                <div class="header__logo-num">
+                    <a class="header__logo-num_tel" href="tel:88006002020">8  800 600  20 20</a>
+                    <button class="header__logo-num_btn">Новосибирск</button>
+                </div>
+            </div>
+            <div class="header__input">
+                <button class="header__input-btn">
+                    <svg width="23" height="10" viewbox="0 0 23 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 2H23" stroke="#99FE00" stroke-width="3"/>
+                        <path d="M0 8H23" stroke="#99FE00" stroke-width="3"/>
+                    </svg>                        
+                    Каталог
+                </button>
+                <form class="header__input-form">
+                    <input type="text" placeholder="Искать оборудование" name="name">
+                    <button type="submit">
+                        <svg width="27" height="20" viewbox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="17" height="16.8205" rx="8.41026" stroke="#99FE00" stroke-width="2"/>
+                            <path d="M17 13.6152L26 18.8716" stroke="#99FE00" stroke-width="2"/>
+                        </svg>                            
+                    </button>
+                </form>
+            </div>
+            <div class="header__buttons">
+                <a class="header__button header__button-about" href="#about">о hitch</a>
+                <a class="header__button header__button-contacts" href="#map">контакты</a>
+                <button class="header__button header__button-basket">
+                    <svg width="33" height="28" viewbox="0 0 33 28"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.52023 6H30.9758L28.4528 18H9.35851M9.35851 18L5.57414 2H0.52832M9.35851 18L10.62 23.3333M10.62 23.3333H24.3019M10.62 23.3333C10.2854 23.3333 9.96455 23.4738 9.72798 23.7239C9.49141 23.9739 9.35851 24.313 9.35851 24.6667C9.35851 25.0203 9.49141 25.3594 9.72798 25.6095C9.96455 25.8595 10.2854 26 10.62 26C10.9545 26 11.2754 25.8595 11.5119 25.6095C11.7485 25.3594 11.8814 25.0203 11.8814 24.6667C11.8814 24.313 11.7485 23.9739 11.5119 23.7239C11.2754 23.4738 10.9545 23.3333 10.62 23.3333ZM24.3019 23.3333C23.9673 23.3333 23.6465 23.4738 23.4099 23.7239C23.1734 23.9739 23.0404 24.313 23.0404 24.6667C23.0404 25.0203 23.1734 25.3594 23.4099 25.6095C23.6465 25.8595 23.9673 26 24.3019 26C24.6365 26 24.9573 25.8595 25.1939 25.6095C25.4305 25.3594 25.5634 25.0203 25.5634 24.6667C25.5634 24.313 25.4305 23.9739 25.1939 23.7239C24.9573 23.4738 24.6365 23.3333 24.3019 23.3333Z" stroke="currentColor" stroke-width="3"/>
+                    </svg>                        
+                </button>
+                <button class="header__button header__button-account">
+                    <svg width="38" height="33" viewbox="0 0 38 33" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10.9995" y="2" width="15" height="14" rx="7" stroke="currentColor" stroke-width="3"/>
+                        <path d="M35.7495 32.0001C34.6244 27.5 29.7164 21 24.0048 21.0001C16.958 21.0001 17.3984 21.0001 18.4995 21.0001H13.6246C7.24945 21.0001 2.85861 28.3334 1.87988 32.0001" stroke="currentColor" stroke-width="3"/>
+                    </svg>                        
+                </button>
+                <button class="header__button header__button-moble">
+                    <p class="header__button-moble-p"></p>
+                </button>
+            </div>
+        </div>
+        <div class="catalog__mobile">
+            <div class="catalog__mobile-conent">
+                <h6 class="catalog__mobile-title">Каталог</h6>
+                <ul class="catalog__mobile-list">
+                    <li class="catalog__mobile-item"><a class="catalog__mobile-link" href="#">системы крепления грузов</a></li>
+                    <li class="catalog__mobile-item"><a class="catalog__mobile-link" href="#">Стропы</a></li>
+                    <li class="catalog__mobile-item"><a class="catalog__mobile-link" href="#">Тали ручные рычажные</a></li>
+                    <li class="catalog__mobile-item"><a class="catalog__mobile-link" href="#">Тали ручные цепные</a></li>
+                    <li class="catalog__mobile-item"><a class="catalog__mobile-link" href="#">Тележки для талей</a></li>
+                    <li class="catalog__mobile-item"><a class="catalog__mobile-link" href="#">Буксировочные приспособления</a></li>
+                </ul>
+                <h6 class="catalog__mobile-about">О Hitch</h6>
+                <ul class="catalog__about-list">
+                    <li class="catalog__about-item"><a class="catalog__about-link" href="#">Как оформить заказ</a></li>
+                    <li class="catalog__about-item"><a class="catalog__about-link" href="#">Оплата и доставка</a></li>
+                    <li class="catalog__about-item"><a class="catalog__about-link" href="#">Магазины</a></li>
+                    <li class="catalog__about-item"><a class="catalog__about-link" href="#">Сервисные центры</a></li>
+                </ul>
+                <h6 class="catalog__mobile-person">Партнерам</h6>
+                <ul class="catalog__person-list">
+                    <li class="catalog__person-item"><a class="catalog__person-link" href="#">Оптовым клиентам</a></li>
+                    <li class="catalog__person-item"><a class="catalog__person-link" href="#">Франшиза</a></li>
+                </ul>
+                <a class="catalog__mobile-tel" href="tel:88006002020">8  800 600  20 20</a>
+            </div>
+        </div>
+    </header>
+    <div class="catalog ">
+        <div class="catalog__content">
+            <h6 class="catalog__title">Каталог</h6>
+            <ul class="catalog__list">
+                <li class="catalog-item"><a class="catalog-link" href="#">системы крепления грузов</a></li>
+                <li class="catalog-item"><a class="catalog-link" href="#">Стропы</a></li>
+                <li class="catalog-item"><a class="catalog-link" href="#">Тали ручные рычажные</a></li>
+                <li class="catalog-item"><a class="catalog-link" href="#">Тали ручные цепные</a></li>
+                <li class="catalog-item"><a class="catalog-link" href="#">Тележки для талей</a></li>
+                <li class="catalog-item"><a class="catalog-link" href="#">Буксировочные приспособления</a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <div class="hero__text"> 
+                        <h1 class="hero__text-title">Надежно. А как иначе? <span class="hero__text-span">Ручная цепная таль CH200-G</span></h1>
+                        <div class="hero__text-btn">
+                            <p>от 10 204 ₽</p>
+                            <button class="btn-greenborder-default">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="equipment">
+            <div class="container equipment__container">
+                <h2 class="equipment__title">Найдите подходящее оборудование</h2>
+                <div class="equipment__content">
+                    <div class="equipment__item">
+                        <a class="equipment__item-title" href="#">Системы креплеения грузов</a>
+                        <img class="equipment__item-img" src="image/main/equipment1.png" alt="Картинка">
+                    </div>
+                    <div class="equipment__item">
+                        <a class="equipment__item-title" href="#">Стропы</a>
+                        <img class="equipment__item-img" src="image/main/equipment2.png" alt="Картинка">
+                    </div>
+                    <div class="equipment__item">
+                        <a class="equipment__item-title" href="#">Тали ручные рычажные</a>
+                        <img class="equipment__item-img" src="image/main/equipment3.png" alt="Картинка">
+                    </div>
+                    <div class="equipment__item">
+                        <a class="equipment__item-title" href="#">Тали ручные цепные</a>
+                        <img class="equipment__item-img" src="image/main/equipment4.png" alt="Картинка">
+                    </div>
+                    <div class="equipment__item">
+                        <a class="equipment__item-title" href="#">Тележки для талей</a>
+                        <img class="equipment__item-img" src="image/main/equipment5.png" alt="Картинка">
+                    </div>
+                    <div class="equipment__item">
+                        <a class="equipment__item-title" href="#">Буксировочные приспособления</a>
+                        <img class="equipment__item-img" src="image/main/equipment6.png" alt="Картинка">
+                    </div>
+                </div>
+                <a class="btn-greenborder-default equipment__button" href="#">перейти в каталог</a>
+            </div>
+        </section>
+        <div class="advertisement">
+            <div class="advertisement__content">
+                <p>ПРИ ПОКУПКЕ РУЧНОЙ РЫЧАЖНОЙ ТАЛИ HITCH LHM 104-G ПЕРЧАТКИ В ПОДАРОК</p>
+                <button class="btn-black-default">подробнее</button>
+            </div>
+        </div>
+        <section class="leaders">
+            <div class="container leaders__container">
+                <h2 class="leaders__title">Лидеры продаж</h2>
+                <div class="leaders__content-one">
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders1.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders2.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders3.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders1.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+                <div class="leaders__content-two">
+                    <div class="leaders__content-item-series">
+                        <h3>Серия Regular</h3>
+                        <p>ХОРОШИЙ ВЫБОР ДЛЯ ЭФФЕКТИВНОЙ РАБОТЫ</p>
+                        <button class="btn-black-default leaders__content-two-btn">Подробнее</button>
+                    </div>
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders2.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders1.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+                <div class="leaders__content-three">
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders2.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="leaders__content-item">
+                        <img class="leaders__item-img" src="image/main/leaders1.png" alt="Картинка">
+                        <p class="leaders__item-desc">Ручной рычажный подъемник LH200-G</p>
+                        <a class="leaders__item-value" href="#">
+                            8 100 ₽
+                            <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.5 12V37M38 24.5H13" stroke="#888888" stroke-width="3"/>
+                                <rect x="1" y="1" width="48" height="48" stroke="#888888" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="leaders__content-item-series leaders__content-item-series-two">
+                        <h3>Серия PROFESSIONAL</h3>
+                        <p>ДЛЯ САМОЙ ТЯЖЕЛОЙ РАБОТЫ</p>
+                        <button class="btn-greenborder-default leaders__content-two-btn">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container about__container">
+                <h3 class="about__title">о HITCH</h3>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide slide-one"> <img src="image/main/about1.png" alt="Картинка"> <p>наше производство</p></div>
+                      <div class="swiper-slide slide-two"> <img src="image/main/about2.png" alt="Картинка"> <p>Инновационные технологии</p></div>
+                      <div class="swiper-slide slide-three"> <img src="image/main/about3.png" alt="Картинка"> <p>Производство в России</p></div>
+                    </div>
+                    <button class="swiper-button-prev">
+                        <svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29.9297 19L22.8586 26.0711L29.9297 33.1421" stroke="white" stroke-width="4"/>
+                            <rect x="-2" y="2" width="48" height="48" transform="matrix(-1 0 0 1 48 0)" stroke="#99FE00" stroke-width="4"/>
+                        </svg>                            
+                    </button>
+                    <button class="swiper-button-next">
+                        <svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.0703 19L29.1414 26.0711L22.0703 33.1421" stroke="white" stroke-width="4"/>
+                            <rect x="2" y="2" width="48" height="48" stroke="#99FE00" stroke-width="4"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="about__desc">
+                <div class="container">
+                    <p>Компания Hitchlifting Inc. (Texas, US)
+                    разрабатывает и производит прочное
+                    и безопасное промышленное оборудование
+                    для подъема грузов, в том числе для самых
+                    суровых условий.</p>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <div class="news__head">
+                    <h4 class="news__title">Новости</h4>
+                    <button class="btn-black-default news__button">Все новости</button>
+                </div>
+                <div class="news__content">
+                    <a class="news__content-item" href="#">
+                        <img src="image/main/news1.png" alt="Картинка">
+                        <h5>Автоматизация ООО «ДетроГаз»</h5>
+                        <p>15 сентября 2022</p>
+                    </a>
+                    <a class="news__content-item" href="#">
+                        <img src="image/main/news2.png" alt="Картинка">
+                        <h5>Автоматизация ООО «ДетроГаз»</h5>
+                        <p>3 августа 2022</p>
+                    </a>
+                    <a class="news__content-item" href="#">
+                        <img src="image/main/news1.png" alt="Картинка">
+                        <h5>открытие Академии HITCH в новосибирске</h5>
+                        <p>27 июля 2022</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="map" id="map">
+            <div class="container">
+                <div class="map__head">
+                    <h4 class="map__title">Где купить</h4>
+                    <button class="mab__btn">
+                        В новосибирске 
+                        <svg width="32" height="21" viewbox="0 0 32 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L16 17L30 2" stroke="#99FE00" stroke-width="5"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="map__content">
+                    <div class="map__content-item">
+                        <p class="map-city">Новосибирск
+                            Северный проезд, 11</p>
+                        <a class="map-tel" href="tel:880060020020">тел. 8 800 600 200 20</a>
+                        <button class="btn-black-default map__content-btn">заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="advertisement">
+            <div class="container advertisement__content-two">
+                <p>Узнавайте о скидках первыми</p>
+                <form class="advertisement__form">
+                    <input class="advertisement-input" type="text" placeholder="EMAIL" name="mail">
+                    <button class="btn-black-bg-default advertisement__btn" type="submit">подписаться</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <div class="footer__contacts">
+                        <img class="footer__logo" src="image/header/header-logo.png" alt="Логотип">
+                        <button class="footer-city">Новосибирск</button>
+                        <p class="footer-time">пн-пт 10:00 – 20:00</p>
+                        <a class="footer__link" href="tel:88000000010">+7 (800) 000-00-10</a>
+                        <a class="footer__link" href="mailto:hello@hitch.ru">hello@hitch.ru</a>
+                    </div>
+                    <div class="footer__catalog">
+                        <p class="footer__catalog-title footer__title">Каталог</p>
+                        <a class="footer__catalog-item footer__link" href="#">Системы крепления грузов</a>
+                        <a class="footer__catalog-item footer__link" href="#">Стропы текстильнbк</a>
+                        <a class="footer__catalog-item footer__link" href="#">Тали ручные рычажные</a>
+                        <a class="footer__catalog-item footer__link" href="#">Тали ручные цепные</a>
+                        <a class="footer__catalog-item footer__link" href="#">Тележки для талей</a>
+                        <a class="footer__catalog-item footer__link" href="#">Буксировочные приспособления</a>
+                    </div>
+                    <div class="footer__about">
+                        <p class="footer__about-title footer__title">О Hitch</p>
+                        <a class="footer__about-item footer__link" href="#">Контакты</a>
+                        <a class="footer__about-item footer__link" href="#">Реквизиты</a>
+                        <a class="footer__about-item footer__link" href="#">Производство</a>
+                        <a class="footer__about-item footer__link" href="#">Академия HITCH</a>
+                        <a class="footer__about-item footer__link" href="#">Работа у нас</a>
+                    </div>
+                    <div class="footer__buyer">
+                        <p class="footer__buyer-title footer__title">Покупателям</p>
+                        <a class="footer__buyer-item footer__link" href="#">Как оформить заказ</a>
+                        <a class="footer__buyer-item footer__link" href="#">Оплата и доставка</a>
+                        <a class="footer__buyer-item footer__link" href="#">Магазины</a>
+                        <a class="footer__buyer-item footer__link" href="#">Сервисные центры</a>
+                    </div>
+                    <div class="footer__partner">
+                        <p class="footer__partner-title footer__title">Партнерам</p>
+                        <a class="footer__partner-item footer__link" href="#">Личный кабинет</a>
+                        <a class="footer__partner-item footer__link" href="#">Оптовым клиентам</a>
+                        <a class="footer__partner-item footer__link" href="#">Франшиза</a>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__social-links">
+                        <a href="#">
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28.6234 14.0042L26.2249 14C23.5302 14 21.7888 15.9319 21.7888 18.922V21.1914H19.3771C19.1688 21.1914 19 21.3741 19 21.5994V24.8875C19 25.1128 19.1689 25.2953 19.3771 25.2953H21.7888V33.5922C21.7888 33.8175 21.9575 34 22.1659 34H25.3124C25.5208 34 25.6896 33.8173 25.6896 33.5922V25.2953H28.5093C28.7177 25.2953 28.8865 25.1128 28.8865 24.8875L28.8876 21.5994C28.8876 21.4912 28.8478 21.3876 28.7772 21.311C28.7066 21.2345 28.6103 21.1914 28.5103 21.1914H25.6896V19.2676C25.6896 18.343 25.8933 17.8736 27.0073 17.8736L28.623 17.873C28.8312 17.873 29 17.6903 29 17.4651V14.412C29 14.1871 28.8314 14.0046 28.6234 14.0042Z" fill="white"/>
+                                <rect x="1" y="1" width="46" height="46" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                        <a href="#">
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28.0419 14H19.9581C16.6728 14 14 16.6728 14 19.9581V28.0419C14 31.3272 16.6728 34 19.9581 34H28.0419C31.3272 34 34 31.3272 34 28.0419V19.9581C34 16.6728 31.3272 14 28.0419 14ZM31.988 28.0419C31.988 30.2213 30.2213 31.988 28.0419 31.988H19.9581C17.7788 31.988 16.012 30.2213 16.012 28.0419V19.9581C16.012 17.7787 17.7788 16.012 19.9581 16.012H28.0419C30.2213 16.012 31.988 17.7787 31.988 19.9581V28.0419Z" fill="white"/>
+                                <path d="M24.0008 18.8271C21.1486 18.8271 18.8281 21.1476 18.8281 23.9998C18.8281 26.852 21.1486 29.1725 24.0008 29.1725C26.8531 29.1725 29.1735 26.8521 29.1735 23.9998C29.1735 21.1476 26.8531 18.8271 24.0008 18.8271ZM24.0008 27.1606C22.2552 27.1606 20.8401 25.7455 20.8401 23.9999C20.8401 22.2542 22.2552 20.8391 24.0008 20.8391C25.7465 20.8391 27.1615 22.2542 27.1615 23.9999C27.1615 25.7455 25.7464 27.1606 24.0008 27.1606Z" fill="white"/>
+                                <path d="M29.1828 20.1054C29.8674 20.1054 30.4223 19.5505 30.4223 18.866C30.4223 18.1814 29.8674 17.6265 29.1828 17.6265C28.4983 17.6265 27.9434 18.1814 27.9434 18.866C27.9434 19.5505 28.4983 20.1054 29.1828 20.1054Z" fill="white"/>
+                                <rect x="1" y="1" width="46" height="46" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                        <a href="#">
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M37.125 23.918C37.125 23.8535 37.125 23.7803 37.1221 23.6953C37.1191 23.458 37.1133 23.1914 37.1074 22.9072C37.084 22.0898 37.043 21.2754 36.9785 20.5078C36.8906 19.4502 36.7617 18.5684 36.5859 17.9063C36.4004 17.2153 36.0368 16.5851 35.5315 16.0787C35.0261 15.5723 34.3966 15.2074 33.7061 15.0205C32.877 14.7979 31.2539 14.6602 28.9688 14.5752C27.8818 14.5342 26.7187 14.5078 25.5557 14.4932C25.1484 14.4873 24.7705 14.4844 24.4307 14.4814H23.5693C23.2295 14.4844 22.8516 14.4873 22.4443 14.4932C21.2812 14.5078 20.1182 14.5342 19.0312 14.5752C16.7461 14.6631 15.1201 14.8008 14.2939 15.0205C13.6031 15.207 12.9734 15.5717 12.468 16.0782C11.9626 16.5846 11.5991 17.2151 11.4141 17.9063C11.2354 18.5684 11.1094 19.4502 11.0215 20.5078C10.957 21.2754 10.916 22.0898 10.8926 22.9072C10.8838 23.1914 10.8809 23.458 10.8779 23.6953C10.8779 23.7803 10.875 23.8535 10.875 23.918V24.082C10.875 24.1465 10.875 24.2197 10.8779 24.3047C10.8809 24.542 10.8867 24.8086 10.8926 25.0928C10.916 25.9102 10.957 26.7246 11.0215 27.4922C11.1094 28.5498 11.2383 29.4316 11.4141 30.0938C11.7891 31.4971 12.8906 32.6045 14.2939 32.9795C15.1201 33.2022 16.7461 33.3398 19.0312 33.4248C20.1182 33.4658 21.2812 33.4922 22.4443 33.5068C22.8516 33.5127 23.2295 33.5156 23.5693 33.5186H24.4307C24.7705 33.5156 25.1484 33.5127 25.5557 33.5068C26.7187 33.4922 27.8818 33.4658 28.9688 33.4248C31.2539 33.3369 32.8799 33.1992 33.7061 32.9795C35.1094 32.6045 36.2109 31.5 36.5859 30.0938C36.7646 29.4316 36.8906 28.5498 36.9785 27.4922C37.043 26.7246 37.084 25.9102 37.1074 25.0928C37.1162 24.8086 37.1191 24.542 37.1221 24.3047C37.1221 24.2197 37.125 24.1465 37.125 24.082V23.918ZM35.0156 24.0703C35.0156 24.1318 35.0156 24.1992 35.0127 24.2783C35.0098 24.5068 35.0039 24.7588 34.998 25.0313C34.9775 25.8105 34.9365 26.5898 34.875 27.3135C34.7959 28.2568 34.6846 29.0303 34.5469 29.5488C34.3652 30.2256 33.832 30.7617 33.1582 30.9404C32.543 31.1045 30.9932 31.2363 28.8867 31.3154C27.8203 31.3564 26.6719 31.3828 25.5264 31.3975C25.125 31.4033 24.7529 31.4063 24.4189 31.4063H23.5811L22.4736 31.3975C21.3281 31.3828 20.1826 31.3564 19.1133 31.3154C17.0068 31.2334 15.4541 31.1045 14.8418 30.9404C14.168 30.7588 13.6348 30.2256 13.4531 29.5488C13.3154 29.0303 13.2041 28.2568 13.125 27.3135C13.0635 26.5898 13.0254 25.8105 13.002 25.0313C12.9932 24.7588 12.9902 24.5039 12.9873 24.2783C12.9873 24.1992 12.9844 24.1289 12.9844 24.0703V23.9297C12.9844 23.8682 12.9844 23.8008 12.9873 23.7217C12.9902 23.4932 12.9961 23.2412 13.002 22.9688C13.0225 22.1895 13.0635 21.4102 13.125 20.6865C13.2041 19.7432 13.3154 18.9697 13.4531 18.4512C13.6348 17.7744 14.168 17.2383 14.8418 17.0596C15.457 16.8955 17.0068 16.7637 19.1133 16.6846C20.1797 16.6436 21.3281 16.6172 22.4736 16.6025C22.875 16.5967 23.2471 16.5938 23.5811 16.5938H24.4189L25.5264 16.6025C26.6719 16.6172 27.8174 16.6436 28.8867 16.6846C30.9932 16.7666 32.5459 16.8955 33.1582 17.0596C33.832 17.2412 34.3652 17.7744 34.5469 18.4512C34.6846 18.9697 34.7959 19.7432 34.875 20.6865C34.9365 21.4102 34.9746 22.1895 34.998 22.9688C35.0068 23.2412 35.0098 23.4961 35.0127 23.7217C35.0127 23.8008 35.0156 23.8711 35.0156 23.9297V24.0703ZM21.3926 27.9258L28.1895 23.9707L21.3926 20.0742V27.9258Z" fill="white"/>
+                                <rect x="1" y="1" width="46" height="46" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                        <a href="#">
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.7948 25.9943C32.5577 26.6238 33.363 27.2161 34.0472 27.9091C34.3495 28.217 34.6357 28.5348 34.8546 28.8922C35.1648 29.4003 34.8839 29.9593 34.3448 29.9897L30.9941 29.9884C30.1299 30.049 29.4405 29.755 28.8608 29.2556C28.3969 28.8563 27.9673 28.4312 27.5212 28.0184C27.3384 27.8497 27.1469 27.6909 26.9183 27.5654C26.4609 27.3145 26.0638 27.3913 25.8024 27.7945C25.5362 28.2046 25.4758 28.6587 25.4497 29.1157C25.4138 29.7825 25.1753 29.9578 24.3827 29.9883C22.6889 30.0558 21.0814 29.8393 19.5881 29.1171C18.2716 28.4805 17.2507 27.5818 16.362 26.5644C14.6319 24.5833 13.307 22.4063 12.1162 20.1684C11.8481 19.6642 12.0441 19.3935 12.7024 19.384C13.7955 19.366 14.8885 19.3673 15.9828 19.3827C16.4271 19.3882 16.7212 19.6035 16.8928 19.9582C17.4842 21.1872 18.2078 22.3564 19.1161 23.4402C19.358 23.7287 19.6047 24.0173 19.9559 24.2203C20.3445 24.4452 20.6404 24.3707 20.8232 24.0049C20.9391 23.7729 20.9899 23.5231 21.0161 23.2746C21.1027 22.4199 21.1141 21.5667 20.9622 20.715C20.8689 20.1835 20.5147 19.8394 19.8871 19.7388C19.5668 19.6875 19.6145 19.5868 19.7696 19.4323C20.0389 19.1659 20.2922 19 20.7972 19H24.584C25.1801 19.0994 25.3125 19.3258 25.3941 19.8327L25.3974 23.3876C25.3909 23.5839 25.5134 24.1662 25.9317 24.2961C26.2664 24.3886 26.4871 24.1623 26.6879 23.9829C27.5946 23.1696 28.2417 22.2085 28.8198 21.2133C29.0764 20.7757 29.2969 20.3213 29.5107 19.8672C29.6691 19.5303 29.9177 19.3645 30.3668 19.3718L34.0114 19.3746C34.1194 19.3746 34.2288 19.3759 34.3334 19.391C34.9476 19.4795 35.1159 19.7028 34.9262 20.2096C34.6273 21.0048 34.0458 21.6674 33.4772 22.3331C32.8694 23.0439 32.2194 23.7303 31.6167 24.4453C31.0629 25.0982 31.1069 25.4272 31.7948 25.9943Z" fill="white"/>
+                                <rect x="1" y="1" width="46" height="46" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <img class="footer__card" src="image/header/footer-card.png">
+                </div>
+            </div>
+            <div class="footer__documents">
+                <div class="footer__documents-items">
+                    <a class="footer__documents-item" href="#">Политика конфеденциальности</a>
+                    <a class="footer__documents-item" href="#">Пользовательское соглашение</a>
+                </div>
+                <p class="footer__documents">Интернет-магазин складского и промышленного оборудования HITCH, 2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+    overflow-x: hidden;
+    position: relative;
+}
+h1, h2, h3, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button, input{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1250px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.btn-greenborder-default{
+    border: 4px solid #99FE00;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+    transition-duration: .36s;
+    transition-timing-function: ease-in-out;
+}
+.btn-greenborder-default:hover{
+    background-color: #99FE00;
+    color: #000000;
+}
+.btn-black-default{
+    border: 4px solid #000000;
+    color: #000000;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    transition-duration: .36s;
+    transition-timing-function: ease-in-out;
+}
+.btn-black-default:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.btn-black-bg-default{
+    background-color: #000000;
+    color: #99FE00;
+    transition-duration: .36s;
+    transition-timing-function: ease-in-out;
+}
+.btn-black-bg-default:hover{
+    color: #ffffff;
+}
